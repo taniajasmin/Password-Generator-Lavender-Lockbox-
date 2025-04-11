@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="password-generator">
+        <h1>Password Generator</h1>
+        <input type="text" id="password" readonly>
+        <button id="copy">Copy</button>
+        <button id="lavenderSpecial">Lavender Special</button>
+
+        
+        <div class="length">
+            <label for="length">Length:</label>
+            <input type="number" id="length" min="4" max="32" value="12">
+        </div>
+        
+        <div class="options">
+            <label>Include Uppercase
+                <input type="checkbox" id="uppercase" checked>
+                <span class="slider"></span>
+            </label>
+            <label>Include Lowercase
+                <input type="checkbox" id="lowercase" checked>
+                <span class="slider"></span>
+            </label>
+            <label>Include Numbers
+                <input type="checkbox" id="numbers" checked>
+                <span class="slider"></span>
+            </label>
+            <label>Include Symbols
+                <input type="checkbox" id="symbols" checked>
+                <span class="slider"></span>
+            </label>
+        </div>
+        
+        <button id="generate">Generate Password</button>
+        
+        <div id="history">
+            <h2>Password History</h2>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
