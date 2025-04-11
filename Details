@@ -1,0 +1,52 @@
+# 🌸 Lavender Lockbox 
+
+*A soothing password generator that creates strong, memorable passwords with a pastel lavender theme.*  
+
+## ✨ Features  
+
+- **Two Password Styles**:  
+  - 🔐 **Random**: Fully customizable strong passwords  
+  - 🌸 **Lavender Special**: Memorable phrase-based passwords (e.g., `HappySunJumps!3`)  
+- **Customizable**:  
+  - Adjust length (8–12 characters)  
+  - Toggle uppercase, lowercase, numbers, and symbols  
+- **Convenience**:  
+  - One-click copy 📋  
+  - Password history (last 5 generated)  
+
+---
+
+## 🚀 How to Use  
+
+1. **Generate Passwords**:  
+   - Click *"Generate Random"* for a traditional strong password.  
+   - Click *"Lavender Special"* for a memorable password like `QuickMoonGlows#2`.  
+2. **Customize**:  
+   - Use the slider to set length.  
+   - Check/uncheck character types (A-Z, a-z, 0-9, !@#).  
+3. **Copy**: Click the *"Copy"* button to save to clipboard.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend**: HTML5, CSS3, JavaScript  
+- **No dependencies** (100% vanilla JS)  
+
+---
+
+## 🌈 Why "Lavender Special"?  
+
+These passwords combine:  
+- **Memorable words** (e.g., "Sun", "Jump", "Happy")  
+- **Auto-added security**: 1 symbol + 1 number (e.g., `!7`)  
+- **Perfect balance**: Easy to remember, hard to crack!  
+
+Example: 
+- `LazyCatDances%4` 
+- WildRainShin
+- GG%R#XV6PQEH
+- LazyBookRuns
+- BrightRiverJ
+
+---
